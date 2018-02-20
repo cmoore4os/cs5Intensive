@@ -1,19 +1,21 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 // other components
-import Greeting from './components/greeting';
+// import T1Props from './components/t1Props';
+// import Blanket from './components/t2Props';
+// import T3State from './components/t3State';
+import Comments from './components/t4Comments';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-          <Greeting />
-        </header>
+        {/* <T1Props name="CS5" />
+        <Blanket color="blue" />
+        <T3State /> */}
+
+        <Comments />
       </div>
     );
   }
